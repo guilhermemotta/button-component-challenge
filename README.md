@@ -1,7 +1,7 @@
 <h1 align="center">Desafio de Componente de Botão</h1>
 
 <div align="center">
-  Solução para um desfio de <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+  Solução para um desafio em <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
 </div>
 
 <div align="center">
@@ -36,12 +36,12 @@
 
 ![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
 
-- Onde ver o demo
+<!-- - Onde ver o demo
 - Falando sobre a minha experiência
 - O que eu aprendi/melhorei
-- Palavras de sabedoria
+- Palavras de sabedoria -->
 
-Completar esse desafio foi uma oportunidade interessante para utilizar BEM (CSS) e aproveitar para praticar React com JavaScript.
+Completar esse desafio foi uma oportunidade interessante para conhecer BEM (CSS) e praticar React com JavaScript.
 
 ### Feito Com
 
@@ -49,6 +49,7 @@ Completar esse desafio foi uma oportunidade interessante para utilizar BEM (CSS)
 
 - [React](https://reactjs.org/)
 - [Create React App](https://github.com/facebook/create-react-app)
+- [classNames](https://github.com/JedWatson/classnames)
 - [Storybook.js](https://storybook.js.org/)
 
 ## Características
@@ -77,10 +78,11 @@ $ yarn start
 <!-- Essa seção deve listar qualquer artigo ou add-on/plugin que ajudaram a completar esse projeto. -->
 
 - [Create React App](https://github.com/facebook/create-react-app)
-- [BEM CSS](http://getbem.com/)
+- [Get BEM](http://getbem.com/)
+- [BEM CSS in React](https://levelup.gitconnected.com/bem-css-in-react-e0d4a4721872)
 
 ## Contato
 
 <!-- - Github Pages - [] -->
-- LinkedIn [](https:)
-- GitHub [@guilhermemotta](https://{github.com/guilhermemotta})
+- [LinkedIn](https://www.linkedin.com/in/guilherme-motta-125042144)
+- GitHub [@guilhermemotta](https://github.com/guilhermemotta)

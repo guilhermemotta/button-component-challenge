@@ -8,14 +8,12 @@ export const Button = ({
   color,
   label,
   disableShadow,
-  // disabled,
   ...props
 }) => {
   const buttonClasses = ['button'];
 
   if (variant === 'outline') {
     buttonClasses.push(buttonVariantBuilder(variant));
-    //color = 'primary';
     disableShadow = true;
   }
 
@@ -42,7 +40,7 @@ export const Button = ({
       className={buttonClasses.join(' ')}
       {...props}
     >
-      {label}
+      <span className="label" >{label}</span>
     </button>
   );
 };
@@ -63,4 +61,4 @@ Button.defaultProps = {
   onClick: undefined,
 };
 
-const buttonVariantBuilder = (variant) => `button--variant-${variant}`;
+const classNameBuilder = (variant) => `button--variant-${variant}`;
