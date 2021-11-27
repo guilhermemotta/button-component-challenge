@@ -1,52 +1,57 @@
-import React from 'react';
+import React from "react";
 
-import { Button } from './Button';
+import { Button } from "./Button";
 
 export default {
   component: Button,
-  title: 'ButtonComponentChallenge/Button',
+  title: "ButtonComponentChallenge/Button",
 };
 
 const Template = (args) => <Button {...args} />;
 
 export const Default = Template.bind({});
+Default.args = {
+  label: "Default Button",
+};
 
 export const Outline = Template.bind({});
 Outline.args = {
-  variant: 'outline',
+  label: "Outline Button",
+  variant: "outline",
 };
 
 export const Text = Template.bind({});
 Text.args = {
-  variant: 'text',
+  label: "Text Button",
+  variant: "text",
 };
 
 export const Disabled = Template.bind({});
 Disabled.args = {
+  label: "Disabled Button",
   disabled: true,
-  label: 'Disabled',
 };
 
 export const DisableShadow = Template.bind({});
 DisableShadow.args = {
-  label: 'Disabled Shadow',
+  label: "Disabled Shadow Button",
   disableShadow: true,
 };
 
 export const Primary = Template.bind({});
 Primary.args = {
-  color: 'primary',
-  label: 'Primary',
+  color: "primary",
+  label: "Primary Color Button",
 };
 
 export const Secondary = Template.bind({});
 Secondary.args = {
-  color: 'secondary',
-  label: 'Secondary',
+  label: "Secondary Color Button",
+  color: "secondary",
 };
 
 export const Danger = Template.bind({});
 Danger.args = {
-  color: 'danger',
-  label: 'Danger',
+  label: "Danger Color Button",
+  color: "danger",
 };
