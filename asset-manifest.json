@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/button-component-challenge/static/css/main.aa23d33c.chunk.css",
-    "main.js": "/button-component-challenge/static/js/main.c0f3158e.chunk.js",
-    "main.js.map": "/button-component-challenge/static/js/main.c0f3158e.chunk.js.map",
-    "runtime-main.js": "/button-component-challenge/static/js/runtime-main.f6db4a1c.js",
-    "runtime-main.js.map": "/button-component-challenge/static/js/runtime-main.f6db4a1c.js.map",
-    "static/js/2.c5f32004.chunk.js": "/button-component-challenge/static/js/2.c5f32004.chunk.js",
-    "static/js/2.c5f32004.chunk.js.map": "/button-component-challenge/static/js/2.c5f32004.chunk.js.map",
-    "static/js/3.c580f37b.chunk.js": "/button-component-challenge/static/js/3.c580f37b.chunk.js",
-    "static/js/3.c580f37b.chunk.js.map": "/button-component-challenge/static/js/3.c580f37b.chunk.js.map",
+    "main.css": "/button-component-challenge/static/css/main.9c7face7.chunk.css",
+    "main.js": "/button-component-challenge/static/js/main.5acc8d24.chunk.js",
+    "main.js.map": "/button-component-challenge/static/js/main.5acc8d24.chunk.js.map",
+    "runtime-main.js": "/button-component-challenge/static/js/runtime-main.a6bd94d5.js",
+    "runtime-main.js.map": "/button-component-challenge/static/js/runtime-main.a6bd94d5.js.map",
+    "static/js/2.c22e2774.chunk.js": "/button-component-challenge/static/js/2.c22e2774.chunk.js",
+    "static/js/2.c22e2774.chunk.js.map": "/button-component-challenge/static/js/2.c22e2774.chunk.js.map",
+    "static/js/3.aa74a35a.chunk.js": "/button-component-challenge/static/js/3.aa74a35a.chunk.js",
+    "static/js/3.aa74a35a.chunk.js.map": "/button-component-challenge/static/js/3.aa74a35a.chunk.js.map",
     "index.html": "/button-component-challenge/index.html",
-    "static/css/main.aa23d33c.chunk.css.map": "/button-component-challenge/static/css/main.aa23d33c.chunk.css.map",
-    "static/js/2.c5f32004.chunk.js.LICENSE.txt": "/button-component-challenge/static/js/2.c5f32004.chunk.js.LICENSE.txt",
+    "static/css/main.9c7face7.chunk.css.map": "/button-component-challenge/static/css/main.9c7face7.chunk.css.map",
+    "static/js/2.c22e2774.chunk.js.LICENSE.txt": "/button-component-challenge/static/js/2.c22e2774.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/button-component-challenge/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f6db4a1c.js",
-    "static/js/2.c5f32004.chunk.js",
-    "static/css/main.aa23d33c.chunk.css",
-    "static/js/main.c0f3158e.chunk.js"
+    "static/js/runtime-main.a6bd94d5.js",
+    "static/js/2.c22e2774.chunk.js",
+    "static/css/main.9c7face7.chunk.css",
+    "static/js/main.5acc8d24.chunk.js"
   ]
 }
