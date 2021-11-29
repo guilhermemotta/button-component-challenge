@@ -4,10 +4,17 @@ import classNames from "classnames";
 
 import "./Button.css";
 
-export const Button = (props) => {
-  const { variant, color, label, disableShadow, disabled } = props;
-
-  const classes = classNames("button", {
+export const Button = ({
+  variant,
+  color,
+  label,
+  disableShadow,
+  disabled,
+  startIcon,
+  endIcon,
+  ...props
+}) => {
+  const buttonClasses = classNames("button", {
     "button--color-default": !color,
     "button--variant-outline": variant === "outline",
     "button--variant-text": variant === "text",
@@ -20,8 +27,10 @@ export const Button = (props) => {
   });
 
   return (
-    <button type="button" className={classes} {...props}>
-      <span className="label">{label}</span>
+    <button type="button" className={buttonClasses} {...props}>
+      {startIcon && <span className="material-icons">{startIcon}</span>}
+      <span className="button__label">{label}</span>
+      {endIcon && <span className="material-icons">{endIcon}</span>}
     </button>
   );
 };

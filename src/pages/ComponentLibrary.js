@@ -4,7 +4,7 @@ import { Button } from "../components/Button";
 const ComponentLibrary = () => {
   return (
     <>
-      <h1>ComponentLibrary Page</h1>
+      <h1>Button Component Challenge</h1>
       <h2>ComponentLibrary.js</h2>
       <code>{'<Button />'}</code>
       <br />
@@ -21,6 +21,14 @@ const ComponentLibrary = () => {
       <code>{'<Button disableShadow />'}</code>
       <br />
       <Button disableShadow />
+      <br />
+      <code>{'<Button startIcon="face" />'}</code>
+      <br />
+      <Button startIcon="face" />
+      <br />
+      <code>{'<Button endIcon="face" />'}</code>
+      <br />
+      <Button endIcon="face" />
       <br />
     </>
   );

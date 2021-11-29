@@ -55,3 +55,9 @@ Danger.args = {
   label: "Danger Color Button",
   color: "danger",
 };
+
+export const StartIcon = Template.bind({});
+StartIcon.args = {
+  label: "Start Icon Button",
+  startIcon: "face",
+};
