@@ -12,6 +12,7 @@ export const Button = ({
   disabled,
   startIcon,
   endIcon,
+  size,
   ...props
 }) => {
   const buttonClasses = classNames("button", {
@@ -24,6 +25,7 @@ export const Button = ({
     "button--color-primary": color === "primary",
     "button--color-secondary": color === "secondary",
     "button--color-danger": color === "danger",
+    [`button--size-${size}`]: true,
   });
 
   return (
@@ -40,6 +42,9 @@ Button.propTypes = {
   label: PropTypes.string,
   disableShadow: PropTypes.bool,
   color: PropTypes.string,
+  startIcon: PropTypes.string,
+  endIcon: PropTypes.string,
+  size: PropTypes.string,
   onClick: PropTypes.func,
 };
 
@@ -48,5 +53,6 @@ Button.defaultProps = {
   color: "default",
   label: "Default",
   disableShadow: false,
+  size: "md",
   onClick: undefined,
 };

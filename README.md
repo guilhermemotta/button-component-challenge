@@ -23,6 +23,7 @@
 <!-- INDICE -->
 
 ## Conteúdo
+
 - [Visão Geral](#visao-geral)
   - [Feito Com](#feito-com)
 - [Características](#caracteristicas)
@@ -70,7 +71,10 @@ $ git clone https://github.com/guilhermemotta/button-component-challenge
 $ yarn install
 
 # Rode o app
-$ yarn start
+$ yarn dev
+
+# Caso queira visualizar com o Storybook.js
+$ yarn storybook
 ```
 
 ## Reconhecimentos
@@ -84,5 +88,6 @@ $ yarn start
 ## Contato
 
 <!-- - Github Pages - [] -->
+
 - [LinkedIn](https://www.linkedin.com/in/guilherme-motta-125042144)
 - GitHub [@guilhermemotta](https://github.com/guilhermemotta)

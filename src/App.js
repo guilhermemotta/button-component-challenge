@@ -8,22 +8,26 @@ function App() {
     <div className="App">
       <h1>Button Component Challenge</h1>
 
-      <div className="button-card">
-        <header className="button-card__header">
-          <code>{"<Button />"}</code>
-        </header>
-        <main className="button-card__content">
-          <Button />
-        </main>
+      <div className="row">
+        <div className="button-card">
+          <header className="button-card__header">
+            <code>{"<Button />"}</code>
+          </header>
+          <main className="button-card__content">
+            <Button />
+          </main>
+        </div>
       </div>
 
-      <div className="button-card">
-        <header className="button-card__header">
-          <code>{'<Button variant="outline" />'}</code>
-        </header>
-        <main className="button-card__content">
-          <Button variant="outline" />
-        </main>
+      <div className="row">
+        <div className="button-card">
+          <header className="button-card__header">
+            <code>{'<Button variant="outline" />'}</code>
+          </header>
+          <main className="button-card__content">
+            <Button variant="outline" />
+          </main>
+        </div>
       </div>
 
       <div className="button-card">
@@ -40,27 +44,59 @@ function App() {
           <code>{"<Button disableShadow />"}</code>
         </header>
         <main className="button-card__content">
-          <Button disableShadow />
+          <Button color="primary" disableShadow />
         </main>
       </div>
 
-      <div className="button-card">
-        <header className="button-card__header">
-          <code>{'<Button startIcon="face" />'}</code>
-        </header>
-        <main className="button-card__content">
-          <Button startIcon="face" />
-        </main>
+      <div className="row">
+        <div className="button-card">
+          <header className="button-card__header">
+            <code>{'<Button startIcon="face" />'}</code>
+          </header>
+          <main className="button-card__content">
+            <Button startIcon="face" />
+          </main>
+        </div>
+
+        <div className="button-card">
+          <header className="button-card__header">
+            <code>{'<Button endIcon="face" />'}</code>
+          </header>
+          <main className="button-card__content">
+            <Button endIcon="face" />
+          </main>
+        </div>
       </div>
 
-      <div className="button-card">
-        <header className="button-card__header">
-          <code>{'<Button endIcon="face" />'}</code>
-        </header>
-        <main className="button-card__content">
-          <Button endIcon="face" />
-        </main>
+      <div className="row">
+        <div className="button-card">
+          <header className="button-card__header">
+            <code>{'<Button size="sm" />'}</code>
+          </header>
+          <main className="button-card__content">
+            <Button color="primary" size="sm" />
+          </main>
+        </div>
+
+        <div className="button-card">
+          <header className="button-card__header">
+            <code>{'<Button size="md" />'}</code>
+          </header>
+          <main className="button-card__content">
+            <Button color="primary" size="md" />
+          </main>
+        </div>
+
+        <div className="button-card">
+          <header className="button-card__header">
+            <code>{'<Button size="lg" />'}</code>
+          </header>
+          <main className="button-card__content">
+            <Button color="primary" size="lg" />
+          </main>
+        </div>
       </div>
+
       <footer>
         created by{" "}
         <a href="https://devchallenges.io/portfolio/guilhermemotta">

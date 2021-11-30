@@ -4,7 +4,7 @@ import { Button } from "./Button";
 
 export default {
   component: Button,
-  title: "ButtonComponentChallenge/Button",
+  title: "ButtonComponentChallenge/Components/Button",
 };
 
 const Template = (args) => <Button {...args} />;
@@ -60,4 +60,28 @@ export const StartIcon = Template.bind({});
 StartIcon.args = {
   label: "Start Icon Button",
   startIcon: "face",
+};
+
+export const EndIcon = Template.bind({});
+EndIcon.args = {
+  label: "End Icon Button",
+  endIcon: "face",
+};
+
+export const SmButton = Template.bind({});
+SmButton.args = {
+  label: "Small Sized Button",
+  size: "sm",
+};
+
+export const MdButton = Template.bind({});
+MdButton.args = {
+  label: "Medium Sized Button",
+  size: "md",
+};
+
+export const LgButton = Template.bind({});
+LgButton.args = {
+  label: "Large Sized Button",
+  size: "lg",
 };
