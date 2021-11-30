@@ -97,9 +97,39 @@ function App() {
         </div>
       </div>
 
-      <footer>
+      <div className="row">
+        <div className="button-card">
+          <header className="button-card__header">
+            <code>{'<Button color="default" />'}</code>
+          </header>
+          <main className="button-card__content">
+            <Button color="default" />
+          </main>
+        </div>
+        <div className="button-card">
+          <header className="button-card__header">
+            <code>{'<Button color="primary" />'}</code>
+          </header>
+          <main className="button-card__content">
+            <Button color="primary" />
+          </main>
+        </div>
+        <div className="button-card">
+          <header className="button-card__header">
+            <code>{'<Button color="secondary" />'}</code>
+          </header>
+          <main className="button-card__content">
+            <Button color="secondary" />
+          </main>
+        </div>
+      </div>
+
+      <footer className="footer">
         created by{" "}
-        <a href="https://devchallenges.io/portfolio/guilhermemotta">
+        <a
+          className="footer__link"
+          href="https://devchallenges.io/portfolio/guilhermemotta"
+        >
           guilhermemotta
         </a>{" "}
         - <a href="https://devchallenges.io">devChallenges.io</a>
